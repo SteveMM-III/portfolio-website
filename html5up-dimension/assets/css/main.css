@@ -1603,6 +1603,22 @@ input, select, textarea {
 				#main article .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
+#main article#work {
+  width: 75%;
+}
+            
+#main article#work section {
+  width: 25%;
+  padding: 0.5%;
+  border: 1px solid white;
+  background-color: darkslategrey;
+}
+#main article#work section img {
+  width: 100%;
+}
+#main article#work section p {
+  font-size: 0.8rem;
+}
 
 		@media screen and (max-width: 736px) {
 
